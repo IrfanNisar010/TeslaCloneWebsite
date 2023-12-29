@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color:#171a20;
+    font-family: 'M PLUS 1', sans-serif;
+    padding-top: 0;
+}
+.desktop{
+    display: none;
+}
+    @media (min-width: 1200px) {
+    .desktop{
+    display: initial;
+    }
+}
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 5px 20px;
+    position: fixed;
+    top: 64px; 
+    z-index: 2;
+    width: 100%;
+}
+.offer-info {
+    background: linear-gradient(#323f6b, #000000);
+    color: #eee;
+    grid-template-columns: 100px;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 54px;
+    z-index: 1;
+}
+.main-offer {
+    color: #eee;
+    font-size: 18px;
+    font-weight: 455;
+    text-align: center;
+
+}
+.offer-info-p2 {
+    padding-left: 16px;
+    color: #eee;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 430;
+    text-align: center;
+
+}
+.see-details {
+    padding-left: 20px;
+    color: #eee;
+    font-size: 15px;
+    font-weight: 430;
+    text-align: center;
+
+}
+a.logo{
+    height:20px;
+    width :100px;
+    color :#fff;
+}
+.Logo {
+    margin-top: 5px;
+    margin-right: -10px;
+}
+header a {
+    color: #fff;
+}
+header nav a {
+    text-decoration: none;
+    padding: 6px 12px;
+    font-weight: 450;
+    font-size: 15px;
+}
+header nav.centre {
+    text-align: center;
+}
+header nav.right {
+    text-align: right;
+}
+section {
+    background-size: cover;
+    background-position: center center;
+}
+section .content {
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 17vh;
+    text-align: center;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+}
+section h1 {
+    font-size: 2.6rem;
+    color: #fff;
+    font-weight: 530;
+    letter-spacing: normal;
+}
+section  p1{
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: #fff;
+}
+section a{
+    color: #fff;
+}
+section .buttons a {
+    display: block;
+    background-color: #eee;
+    letter-spacing: 0.1;
+    text-align: center;
+    color: inherit;
+    padding: 9px 70px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 470;
+    background: blur(8px);
+}
+section .buttons {
+    display: grid;
+    row-gap: 20px;
+    margin: 0 40px;
+}
+@media (min-width: 758px) {
+    section .buttons{
+        padding-top: 473px;
+        max-width: 640px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+}
+section .content p2 {
+    padding-top: 48px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+section .buttons a:nth-child(1) {
+    background-color: rgba(238, 238, 238, 0.8); 
+}
+
+section .buttons a:nth-child(2) {
+    background-color: #2e2b2d; 
+    color: #fff;
+}
+.model-x-p {
+    font-weight: 200;
+    font-size: 0.8rem;
+    color: #0d0f15;
+}
+.model-x{
+    color: #0d0f15;
+
+}
+section .content p3{
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #0d0f15;
+}
+.model-x-p4 {
+    padding-top: 27px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+.Material-Icons {
+    color: #eee;
+    padding-left: 4px;
+    margin-left: 3px;
+}
+.Model-s {
+    color: #0d0f15;
+}
+.model-s-p {
+    font-weight: 200;
+    font-size: 0.8rem;
+    color: #0d0f15;
+}
+section .content p5{
+    font-weight: 550;
+    font-size: 1.3rem;
+    color: #0d0f15;
+}
+.model-s-p6 {
+    padding-top: 27px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+}
+.a-tag{
+    color: #000000;
+}
+section .buttons-cybertruck a {
+    display: block;
+    background-color: #eee;
+    letter-spacing: 0.1;
+    text-align: center;
+    color: inherit;
+    padding: 9px 90px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 470;
+    background: blur(8px);
+}
+section .buttons-cybertruck {
+    display: grid;
+    row-gap: 25px;
+    margin: 0 40px;
+}
+@media (min-width: 758px) {
+    section .buttons-cybertruck{
+        padding-top: 566px;
+        max-width: 640px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+}
+section .buttons-cybertruck a:nth-child(1) {
+    background-color: rgba(238, 238, 238, 0.8); 
+}
+
+section .buttons-cybertruck a:nth-child(2) {
+    background-color: #161920; 
+    color: #fff;
+}
+.solar-panels {
+    color: #0d0f15;
+}
+.a-tag-solar {
+    color: #0d0f15;
+}
+section .buttons-solarpanel a {
+    display: block;
+    background-color: #eee;
+    letter-spacing: 0.1;
+    text-align: center;
+    color: inherit;
+    padding: 9px 90px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 470;
+    background: blur(8px);
+}
+section .buttons-solarpanel {
+    display: grid;
+    row-gap: 25px;
+    margin: 0 40px;
+}
+@media (min-width: 758px) {
+    section .buttons-solarpanel{
+        padding-top: 462px;
+        max-width: 640px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+}
+section .buttons-solarpanel a:nth-child(1) {
+    background-color: rgba(238, 238, 238, 0.8); 
+}
+
+section .buttons-solarpanel a:nth-child(2) {
+    background-color: #2e2b2d; 
+    color: #fff;
+}
+.solar-roof {
+    color: #0d0f15;
+}
+section .buttons-Accessories a {
+    display: block;
+    background-color: #eee;
+    letter-spacing: 0.1;
+    text-align: center;
+    color: inherit;
+    padding: 9px 100px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 470;
+    background: blur(8px);
+}
+@media (min-width: 758px) {
+    section .buttons-Accessories{
+        padding-top: 472px;
+        max-width: 640px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+}
+section .buttons-Accessories a:nth-child(1) {
+    background-color: rgba(244, 244, 244, 1);
+}
+.about {
+    font-size: 13;
+    font-weight: 500;
+    padding-top: 60;
+}
+.about a{
+    text-decoration: none;
+    padding: 4px 6px;
+    font-weight: 450;
+    font-size: 13px;
+    color: #dadbdd;
+}
