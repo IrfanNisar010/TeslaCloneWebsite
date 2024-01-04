@@ -26,7 +26,7 @@ header {
     width: 100%;
 }
 .offer-info {
-    background: linear-gradient(#323f6b, #000000);
+    background: linear-gradient(to bottom right, #323f6b, #000000);
     color: #eee;
     grid-template-columns: 100px;
     text-align: center;
